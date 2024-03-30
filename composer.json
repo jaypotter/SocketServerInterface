@@ -1,0 +1,26 @@
+{
+    "name": "potter/socket-server-interface",
+    "description": "PHP Socket Server Interface",
+    "type": "library",
+    "require": {
+        "php": "^8.3"
+    },
+    "suggest": {
+        "potter/socket-interfaces": "dev-main",
+        "potter/contracts": "dev-main",
+        "potter/framework": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Socket\\Server\\": "src/Potter/Socket/Server/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "dev"
+}
