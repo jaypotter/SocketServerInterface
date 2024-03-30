@@ -6,5 +6,5 @@ namespace Potter\Socket\Server;
 
 abstract class AbstractSocketServer implements SocketServerInterface
 {
-    abstract public function listen(): void;
+    abstract public function listen(int $backlog = 0): void;
 }
