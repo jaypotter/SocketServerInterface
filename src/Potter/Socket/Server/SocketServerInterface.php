@@ -6,5 +6,5 @@ namespace Potter\Socket\Server;
 
 interface SocketServerInterface
 {
-
+    public function listen(): void;
 }
